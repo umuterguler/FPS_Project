@@ -232,7 +232,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105207969}
   m_LocalRotation: {x: -0.18147272, y: 0.29918936, z: -0.43232715, w: 0.83105147}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2801609}
+  m_LocalPosition: {x: 0, y: 0, z: 0.355}
   m_LocalScale: {x: 0.04991001, y: 0.050000004, z: 0.01017}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -242,7 +242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 2.514, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.30499142, y: -0.2801608}
+  m_AnchoredPosition: {x: -0.386, y: -0.355}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105207971
@@ -1380,7 +1380,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851850295}
   m_LocalRotation: {x: -0.18147273, y: 0.29918936, z: -0.43232715, w: 0.83105147}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.37}
   m_LocalScale: {x: 0.04991, y: 0.050000004, z: 0.01017}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1390,7 +1390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 2.514, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.41, y: -0.37}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851850297
@@ -2960,7 +2960,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767027800}
   m_LocalRotation: {x: -0.18147276, y: 0.29918936, z: -0.43232715, w: 0.83105147}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.39}
   m_LocalScale: {x: 0.04991, y: 0.05, z: 0.01017}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2970,7 +2970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 2.514, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.42, y: -0.39}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767027802
