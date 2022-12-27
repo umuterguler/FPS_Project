@@ -1,7 +1,5 @@
 using System;
 using Interfaces;
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class Weapon: MonoBehaviour
@@ -22,7 +20,6 @@ public abstract class Weapon: MonoBehaviour
 
     [Header("Effects")]
     [SerializeField]private GameObject hitEffect;
-    [SerializeField]private float hitEffectLifeTime;
     [SerializeField]private TrailRenderer bulletTracer;
     [SerializeField]private ParticleSystem[] muzzleFlash;
 
@@ -53,7 +50,6 @@ public abstract class Weapon: MonoBehaviour
                     GameObject hitEffectInstance = Instantiate(hitEffect, whatIHit.point, Quaternion.identity);
                     hitEffectInstance.transform.forward = whatIHit.normal;
                     hitEffectInstance.transform.SetParent(whatIHit.transform);
-                    Destroy(hitEffectInstance, hitEffectLifeTime);
                 }
                 #endregion
             }

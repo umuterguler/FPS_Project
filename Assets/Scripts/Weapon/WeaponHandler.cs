@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class WeaponHandler : MonoBehaviour
     
     private GameObject currentWeaponPrefab;
     public Weapon currentWeapon;
+    
 
     private void Awake()
     {
@@ -21,7 +23,7 @@ public class WeaponHandler : MonoBehaviour
             Destroy(this);
         }
     }
-    
+
     public void PickUpGun(Weapon weapon)
     {
         if (currentWeapon != null)
